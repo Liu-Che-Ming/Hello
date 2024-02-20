@@ -1,0 +1,39 @@
+Copied!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Content Example</title>
+    <style>
+        /* CSS 样式 */
+        .sss{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button onclick="changeContent('contentA')">按钮 A</button>
+        <button onclick="changeContent('contentB')">按钮 B</button>
+    </div>
+
+    <div id="content" class="container">
+        <p>原始内容</p>
+    </div>
+    
+
+    <script>
+        // 存储要更改的内容的对象
+        var contentMap = {
+            contentA: "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Content for A.</p>",
+            contentB: "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Content for B.</p><img class='sss'src='img/LINE_ALBUM_白雪村找白雪公主_240219_1.jpg'>"
+        };
+
+        // 更改内容的函数
+        function changeContent(contentKey) {
+            document.getElementById("content").innerHTML = contentMap[contentKey];
+        }
+    </script>
+</body>
+</html>

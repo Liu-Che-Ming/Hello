@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>哲明的個人簡介</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8ccbf5189.js" crossorigin="anonymous"></script>
+    <style>
+        
+        .header{
+            display: flex;
+            padding: 4px;
+            background-color: #000;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0px;
+            position: fixed;
+            width: 100%;
+            z-index: 2;
+            opacity: .9;
+        }
+        .header .logo{
+          padding:0 5px;
+        }
+        .header .logo img{
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          margin-right: 10px;
+          
+        }
+        .header a{
+          text-decoration: none;
+          color:#fff;
+          line-height: 50px;
+          
+        }        
+        .header nav a{
+            font-size: 30px;
+            padding: 0 15px;
+            color: #fff;
+        }
+        .header nav a:hover{
+            color: #5d68ce;
+        }
+        .carousel{
+          margin-top: 0px;
+          padding-top: 58px;
+        }
+        .container{
+          margin-top: 20px;
+          max-width:1200px;
+        }
+        .container.row{
+          justify-content: space-between;
+        }
+        .container .col-md-4{
+          margin-top: 50px;
+          padding-left: 30px;
+          padding-bottom: 50px;
+        }
+        .container .col-md-8{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 750px;
+        }
+        .container .pic{
+          max-width: 300px;
+          border-radius: 50%;
+          margin: 10px;
+        }
+        .container .txt{
+          max-width: 600px;
+          margin-top: 20px;
+          padding: 20px;
+          line-height: 1.5;
+          font-size: 18px;
+          font-family: "Noto Sans TC", sans-serif;
+          font-optical-sizing: auto;
+          font-style: normal;
+          text-align: center;
+        }
+        .footer{
+            text-align: center;
+            background-color: #000;
+            color:#888;
+            padding: 15px 0;
+        }
+        @media screen and (max-width:768px) {
+          .container .col-md-4{
+            margin-top: 10px;
+            padding: 0 20px;
+          }
+          .container{
+            margin-top: 10px;
+          }
+          .container .list-group-item{
+            text-align: center;
+          }
+          .container .col-md-8{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 700px;
+          }
+          .container .pic{
+            max-width: 300px;
+            border-radius: 50%;
+            margin-top: 10px;
+          }
+          
+        }
+        
+        
+    </style>
+</head>
+  <body>
+    <div class="header">
+        <a href="#" class="logo"><img src="img/左上logo.jpg" alt="">WeHelp申請</a>
+        <nav>
+            <a href="https://www.facebook.com/billbillbilltw/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/home.mount/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://line.me/ti/p/i-GwXv7vvs"><i class="fa-brands fa-line"></i></a>
+            <a href="https://www.linkedin.com/in/liucheming"><i class="fa-brands fa-linkedin"></i></a>
+        </nav>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/橫幅-干卓萬.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/LINE_ALBUM_馬博嘆息灣閃颱風_240219_1_Crop Image (1).jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/LINE_ALBUM_馬博嘆息灣閃颱風_240219_2_Crop Image.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="list-group">
+            <button type="button" class="list-group-item list-group-item-action" onclick="changeTitleAndImage('contentA','/img/簡介照片_Crop Image.jpg')">兩百字內的個人簡介</button>
+            <button type="button" class="list-group-item list-group-item-action" onclick="changeTitleAndImage('contentB','/img/軟體工程師.jpg')">為了成為軟體工程師，做過什麼努力？</button>
+            <button type="button" class="list-group-item list-group-item-action" onclick="changeTitleAndImage('contentC','img/學習2.jpg')">如果參與這個訓練，會怎麼安排學習時間？</button>
+            <button type="button" class="list-group-item list-group-item-action" onclick="changeTitleAndImage('contentD','img/公司.jpg')">是否有想要加入的公司？為什麼想加入該公司？</button>
+            <button type="button" class="list-group-item list-group-item-action" onclick="changeTitleAndImage('contentE','img/負面.jpg')">請描述一件產生明顯負面情緒的經歷，如何處理該情緒？</button>
+            <button type="button" class="list-group-item list-group-item-action" onclick="changeTitleAndImage('contentF','img/技術開發.jpg')">關於這份申請網頁，分享一個開發時的技術心得。</button>
+            <button type="button" class="list-group-item list-group-item-action" onclick="changeTitleAndImage('contentG','img/朋友.jpg')">請用簡短兩三句話，描述對你而言，最重要的一項人際交往原則。</button>
+            <button type="button" class="list-group-item list-group-item-action" onclick="changeTitleAndImage('contentH','img/晉升.jpg')">其他想要對我們說的事情？</button>
+          </div>
+        </div>
+        <div class="col-12 col-md-8">          
+          <img id="image" class="pic" src="/img/簡介照片_Crop Image.jpg" alt="原始图片">
+          <div id="content" class="txt">我是劉哲明，師大數學系畢業，在學期間因為朋友推波助瀾，我開始了與山的不解之緣，畢業之際，聽從內心的聲音，成為了一名登山嚮導，帶領初入山林的夥伴，在安全條件下盡情享受大自然的美好。<br><br>
+            登山，教會了我很多。行前準備時，它讓我了解如何謹慎依照隊伍狀況去安排適合的活動進程；登山過程中，它培養我應對突發狀況時的危機處理；在人與人的交際中，它觸發了我一次次與他人合作的經驗。<br><br>
+            開始登山，是我人生至此最不後悔的一件事。            
+          </div>
+          
+          
+                   
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      &copy; copyright 2024 by Michael Liu.
+    </div>
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+      // 存储要更改的内容的对象
+      var contentMap = {
+            contentA: "<p>我是劉哲明，師大數學系畢業，在學期間因為朋友推波助瀾，我開始了與山的不解之緣，畢業之際，聽從內心的聲音，成為了一名登山嚮導，帶領初入山林的夥伴，在安全條件下盡情享受大自然的美好。<br><br>登山，教會了我很多。行前準備時，它讓我了解如何謹慎依照隊伍狀況去安排適合的活動進程；登山過程中，它培養我應對突發狀況時的危機處理；在人與人的交際中，它觸發了我一次次與他人合作的經驗。<br><br>開始登山，是我人生至此最不後悔的一件事。 </p>",
+            contentB: "<p>千里之行始於足下，起初有成為軟體工程師的想法時，我便開始在網路上蒐集資料、跟朋友討論，了解軟體工程師的種類，工作環境，需要的技能等等。下一步我便開始搜索適合自己的教材，間接知道了WeHelp有Bootcamp這類的教程，並以此為目標努力。<br><br>從網頁架構開始學習，了解HTML各個標籤的意義與使用時機，再掛上CSS豐富整個畫面，不同的指令有不同的效果，原先一行行看了頭暈的程式碼，在一步步的學習下漸漸懂得解構其含意。現在打開網頁都會好奇背後的運作原理，右鍵檢查，就算是第一次看到，也可以透過關鍵字的搜尋，培養自學的能力。</p>",
+            contentC: "<p>現在登山嚮導的工作屬於接案性質，主要上班時間集中在假日，加上近期國門開放，國內旅遊業日漸式微，因此萌生出了轉職的念頭。看到WeHelp Bootcamp連續半年的學習安排覺得非常適合自己，趁自己年輕，多挑戰不同的領域，全心投入程式學習是對於轉職最快的途徑。<br><br>完成每週任務為首要目標，若當週仍有餘裕才會安排額外兼差。另外對於英文的學習，我也是興致勃勃，尤其工程師這個產業常常需要從網路上自學新的知識，原文網頁的閱讀就成了必備技能之一。</p>",
+            contentD: "<p>現階段我對於想加入的公司沒有特別的想像，倒是對於我想進入怎樣的職場環境有一點自己的看法。<br><br>進入產業的初期，我覺得起薪不是我的首要考量，重點是能否在這個職位累積能力，為長遠的職涯埋下種子。我相信有能力的人不怕找不到工作，我怕的是自己在日復一日的工作日常中，原地踏步、毫無發展。<br><br>長遠來看，工程師需要更多的是像專案經理那樣的協調能力，對於跨部門的合作，尤為重要。我期待自己溝通及管理的能力可以有所成長，日漸成為團隊中的靈魂人物。</p>",
+            contentE: "<p>登山嚮導的工作，時常需要與不同的人合作，然而不同的人有著不同的個性、工作模式。若沒有在事前培養默契，就容易在團員面前發生決策不同調的尷尬情況。<br><br>我想人與人之間的相處是一輩子的課題，我曾經因為心直口快的話語而造成別人的誤解，也有被不尊重粗暴的對待過，此類事情都使我心煩意亂，甚至影響工作表現。後來，與其兩個人互看各不爽，不如我就先來當示好的那位。誠心誠意的溝通是解決問題的不二法門，雖然有些事也不是因此解決，但對於自己心中那份不舒服就已經放下一半了，畢竟，我努力去嘗試了。</p>",
+            contentF: "<p>在做出這份網頁之前，我剛發現了Bootstrap這個新大陸，原來在這個框架下有這麼多插件可以直接使用，然而我也發現如果想要做一些客製化的修改，底層的CSS語法非常重要，他可以微調我們想要的款式與設計，讓我們可以更自由的做出理想的網頁。<br><br>目前為止，我得到最大的開發心得就是按鈕的使用，我想要把問題一一列出，藉由按鈕改變內文以及圖片，然而我不想在超連結<a>上貼上一個新的網頁，上網爬文後我發現原來這時候就要靠JS上場了。藉由函數的操作，id選擇器的應用，去改變內文的變化。這讓我更迫不及待後面我將學習到的新玩意！</p>",
+            contentG: "<p>人生苦短，相逢即是有緣。<br><br>謝謝你來到我的生命，希望我們擁有美好的一天。</p>",
+            contentH: "<p>謝謝WeHelp讓我有這次實作的經驗，平常看影片教學，內心都覺得自己會了，但真的要我實際操作果然是兩回事。還記得彭彭老師說過WeHelp這邊只會提供資源，學員要自己去想辦法完成任務。我想這就是學習的真諦，有輸入也一定要有輸出，這樣才可以把學到的新知內化成自己的一部分。<br><br>期待可以獲選成為WeHelp Bootcamp的一員，讓我站在巨人的肩膀上，在學習程式語言的領域可以視野更開闊，學習更有效率，期待與你們相見。</p>"
+        };
+
+        // 更改内容的函数
+        function changeTitleAndImage(contentKey, newImageUrl) {
+            document.getElementById("content").innerHTML = contentMap[contentKey];
+            document.getElementById("image").src = newImageUrl;
+        }
+  </script>
+  </body>
+</html>
